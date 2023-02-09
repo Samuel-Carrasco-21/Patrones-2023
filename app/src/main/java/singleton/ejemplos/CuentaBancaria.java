@@ -1,30 +1,39 @@
 package singleton.ejemplos;
 
 public class CuentaBancaria {
-    
-    // atributo del mismo tipo
+
+    // attributo del mismo tipo
     private static CuentaBancaria instance = null;
     private int saldo;
+
     // constructor privado
     private CuentaBancaria(){
         saldo = 1000;
-        System.out.println("Info -> Saldo inicial: "+saldo);
+        System.out.println("INFO > Saldo Inicial: "+saldo);
     }
-    // acceso global
-    public static CuentaBancaria getInstance(){
-        if(instance==null)
+
+    private synchronized static void create(){
+        if (instance == null)
             instance = new CuentaBancaria();
+    }
+
+    // acceso global - metodo estatico publico que retorne la instancia unica
+    public static CuentaBancaria getInstance(){
+        if (instance == null)
+            create();
         return instance;
     }
 
-    public void retirarDinero(int amount){
-        if(amount<=saldo){
-            saldo-=amount;
-            System.out.println("INFO:\ncantidad retirada: "+amount
-            +"\nnuevo saldo: "+saldo);
+    public synchronized void retirarDinero(int amount){
+        if (amount <= saldo){
+            saldo=saldo-amount;
+            System.out.println("INFO> operacion satisfactoria: cantidad a retirar: "+amount+", nuevo saldo:"+saldo);
         }else{
-            System.out.println("Orden inaceptable");
+            System.out.println("ERROR> no se puede retirar esa cantidad: "+amount+", el saldo que tiene: "+saldo);
         }
     }
 
+    public void saldoActual(){
+        System.out.println("INFO > tu saldo es : "+saldo);
+    }
 }

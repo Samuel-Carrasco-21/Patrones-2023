@@ -1,34 +1,35 @@
 package singleton.ejemplos;
 
 public class ClientExample {
-    public static void main(String[] args) {
-
+    public static void main(String []args) throws InterruptedException {
         Thread s1 = new Thread(new Runnable() {
             @Override
-            public void run(){
-                Sucursal sucursal = new Sucursal(new Client("Jose"));
-                sucursal.retirarDinero(100);
+            public void run() {
+                Sucursal sucursalA = new Sucursal(new Client("Jose"));
+                sucursalA.retirarDinero(100);
             }
         });
 
         Thread c1 = new Thread(new Runnable() {
             @Override
-            public void run(){
+            public void run() {
                 Cajero cajero = new Cajero(new Client("Jose"));
-                cajero.retirarDinero(100);
+                cajero.retirarDinero(200);
             }
         });
-        
-        Thread w1 = new Thread(new Runnable() {
+
+        Thread app = new Thread(new Runnable() {
             @Override
-            public void run(){
+            public void run() {
                 WebApp webApp = new WebApp(new Client("Jose"));
-                webApp.transferirDinero(200);
-            }
+                webApp.transferirDinero(300,"5468713");
+                 }
         });
 
-        
-
-        
+        s1.start();
+        c1.start();
+        app.start();
+        Thread.sleep(2000);
+        CuentaBancaria.getInstance().saldoActual();
     }
 }

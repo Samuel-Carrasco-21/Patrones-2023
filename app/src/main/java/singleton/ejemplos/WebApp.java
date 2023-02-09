@@ -1,11 +1,12 @@
 package singleton.ejemplos;
 
 public class WebApp {
-
-    public WebApp(Client client) {
+    Client client;
+    public WebApp(Client client){
+        this.client=client;
     }
 
-    public void transferirDinero(int i) {
+    public void transferirDinero(int amount,String cuentaDestion){
+        CuentaBancaria.getInstance().retirarDinero(amount);
     }
-    
 }
