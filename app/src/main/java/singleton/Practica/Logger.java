@@ -5,7 +5,7 @@ import java.io.*;
 public class Logger {
     private static Logger instance = null;
     private Producto productos[];
-    private int DineroDisponible;
+    private float DineroDisponible;
 
     private String archivoTXT;
     private String directorio = System.getProperty("user.dir");
