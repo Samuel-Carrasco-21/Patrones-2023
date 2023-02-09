@@ -1,0 +1,10 @@
+//Todo el codigo debe estar dentro de un solo archivo txt
+
+Logger:
+Ventas/Compras
+
+Se tiene una aplicacion en la que se registran Productos,
+Clientes, Facturas y Promociones (2 metodos), estas Promociones
+deben logger todo lo que realizan en un archivo con extension txt
+
+Logger - Singleton
