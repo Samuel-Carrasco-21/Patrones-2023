@@ -1,0 +1,147 @@
+
+--- DATOS TELEFONO ---
+
+Tamano: 10cm
+CPU: Snapdragon 8 Gen 2
+Memory: 128GB
+Empresa telefonica: Entel
+Numero telefonico: 60481481
+Version Android: 12.0
+Camara: 48MP
+Bluetoo: true
+Cantidad de memorias externas: 2
+Duracion Bateria: 16h
+Accesorios:
+* Audifonos de 1.2m de largo
+* Cargador de 40w
+* Estuche del logo de Samsung
+
+----------------------
+
+--- Datos Usuario ---
+nombre: Jose
+id: 2003
+*********************
+
+--- DATOS TELEFONO ---
+
+Tamano: 10cm
+CPU: Snapdragon 8 Gen 2
+Memory: 128GB
+Empresa telefonica: Tigo
+Numero telefonico: 58198314
+Version Android: 12.0
+Camara: 48MP
+Bluetoo: true
+Cantidad de memorias externas: 2
+Duracion Bateria: 16h
+Accesorios:
+* Audifonos de 1.2m de largo
+* Cargador de 40w
+* Estuche del logo de Samsung
+
+----------------------
+
+--- Datos Usuario ---
+nombre: Michael
+id: 165
+*********************
+
+--- DATOS TELEFONO ---
+
+Tamano: 10cm
+CPU: Snapdragon 8 Gen 2
+Memory: 128GB
+Empresa telefonica: Viva
+Numero telefonico: 33166634
+Version Android: 12.0
+Camara: 48MP
+Bluetoo: true
+Cantidad de memorias externas: 2
+Duracion Bateria: 16h
+Accesorios:
+* Audifonos de 1.2m de largo
+* Cargador de 40w
+* Estuche del logo de Samsung
+
+----------------------
+
+--- Datos Usuario ---
+nombre: Enrique
+id: 187
+*********************
+
+--- DATOS TELEFONO ---
+
+Tamano: 10cm
+CPU: Snapdragon 8 Gen 2
+Memory: 128GB
+Empresa telefonica: Viva
+Numero telefonico: 80570079
+Version Android: 12.0
+Camara: 48MP
+Bluetoo: true
+Cantidad de memorias externas: 2
+Duracion Bateria: 16h
+Accesorios:
+* Audifonos de 1.2m de largo
+* Cargador de 40w
+* Estuche del logo de Samsung
+
+----------------------
+
+--- Datos Usuario ---
+nombre: Ambar
+id: 376
+*********************
+
+--- DATOS TELEFONO ---
+
+Tamano: 10cm
+CPU: Snapdragon 8 Gen 2
+Memory: 128GB
+Empresa telefonica: Tigo
+Numero telefonico: 14280630
+Version Android: 12.0
+Camara: 48MP
+Bluetoo: true
+Cantidad de memorias externas: 2
+Duracion Bateria: 16h
+Accesorios:
+* Audifonos de 1.2m de largo
+* Cargador de 40w
+* Estuche del logo de Samsung
+
+----------------------
+
+--- Datos Usuario ---
+nombre: Mateo
+id: 50
+*********************
+
+--- DATOS TELEFONO ---
+
+Tamano: 10cm
+CPU: Snapdragon 8 Gen 2
+Memory: 128GB
+Empresa telefonica: Entel
+Numero telefonico: 59858877
+Version Android: 12.0
+Camara: 48MP
+Bluetoo: true
+Cantidad de memorias externas: 2
+Duracion Bateria: 16h
+Accesorios:
+* Audifonos de 1.2m de largo
+* Cargador de 40w
+* Estuche del logo de Samsung
+
+----------------------
+
+--- Datos Usuario ---
+nombre: Vivian
+id: 865
+*********************
+
+********************
+
