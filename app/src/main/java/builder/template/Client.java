@@ -10,7 +10,7 @@ public class Client {
             director.buildProduct();
 
             Product p1 = director.getProduct();
-            p1.showInfo();
+            // p1.showInfo();
 
         }
 }
