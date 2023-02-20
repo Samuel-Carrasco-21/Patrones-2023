@@ -1,0 +1,12 @@
+Se tienen 3 importadoras de vehiculos/automoviles
+
+-costo
+-modelo
+-#asiento
+-tipo
+
+*Suzuki->Vector
+*Toyota->Stack
+*Quantum->List
+
+guardar todos los automoviles en un objeto map -> Aduana
