@@ -1,0 +1,37 @@
+se tiene una aerolinea, que se encarga de manejar la venta de pasajes, esta aerolinia tiene muchos
+viajes frecuentes que ofrecer, cuando necesita vender un pasaje este pasaje tiene diferentes caracteristicas
+
+
+*- PASAJE ---> IProduct
+- Pasaje Standart  ---> Concrete Product
+  numero vuelo
+  destino (pais, ciudad, aeropuerto) - PAIS
+  origen (pais, ciudad, aeropuerto) - PAIS
+  avion (marca,capacidad, modelo, numerodeAsientos) --AVION
+  pasajero (nombre,ci) - PASJERO
+  numero asiento
+  costo de pasaje
+
+- Pasaje Solidario   ---> Concrete Product
+  numero vuelo
+  destino (pais, ciudad, aeropuerto)
+  origen (pais, ciudad, aeropuerto)
+  avion (marca,capacidad, modelo, numerodeAsientos)
+  pasajero (nombre,ci)
+  numero asiento
+  costo de pasaje
+  descuento
+  motivo del descuento
+
+- Pasaje Infantes  ---> Concrete Product
+
+  numero vuelo
+  destino (pais, ciudad, aeropuerto)
+  origen (pais, ciudad, aeropuerto)
+  avion (marca,capacidad, modelo, numerodeAsientos)
+  pasajero (nombre,ci)
+  numero asiento
+  costo especial
+
+
+ crear 2 pasajes de cada tipo, y cambiar los datos del pasajero/ numero de asiento.
