@@ -1,17 +1,22 @@
 package memento.example;
 
 public class Git {
-    private Proyect proyect;
-    public void setProyect(Proyect proyect){
-        this.proyect = proyect;
+    private Project project;
+
+    public void setProject(Project project){
+        this.project = new Project(project.getName());
+        this.project.setComment(project.getComment())
+                .setCode(project.getCode())
+                .setUserStoryEnd(project.getUserStoryEnd());
     }
 
-    public Memento createCommitProyect(){
-        return new Memento(this.proyect);
+    public Memento createCommitProject(){
+        return new Memento (this.project);
     }
 
-    public Proyect logCommit(Memento memento){
-        this.proyect = memento.getProyect();
-        return this.proyect;
+    public Project checkoutCommit(Memento memento){
+        this.project =memento.getProjectState();
+        return this.project;
     }
+
 }
