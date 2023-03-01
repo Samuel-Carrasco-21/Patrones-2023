@@ -5,7 +5,7 @@ public class Main {
         EmpresaApp empresaApp = new EmpresaApp();
         Falla falla = new Falla();
         falla.setTitulo("Error de descarga");
-        falla.setSeveridad("Media");
+        falla.setSeveridad("Baja");
         falla.setDescripcion("Paro constante de la descarga de la aplicacion cuando llega al 99%");
         empresaApp
         .reporteFalla(

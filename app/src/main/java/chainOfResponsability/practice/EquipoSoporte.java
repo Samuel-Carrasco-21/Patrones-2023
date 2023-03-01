@@ -24,9 +24,7 @@ public class EquipoSoporte  implements IHandler{
             System.out.println
             ("Exception: El equipo de soporte no se encuentra encargado de evaluar y revisar la falla de prioridad: "
             +falla.getSeveridad().toUpperCase());
-            System.out.println("Se redirigira el reporte al encargado...");
             System.out.println();
-            next.reporteFalla(persona, falla);
         }
     }
 }

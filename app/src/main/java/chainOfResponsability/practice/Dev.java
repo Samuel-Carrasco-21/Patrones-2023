@@ -25,7 +25,9 @@ public class Dev implements IHandler {
             System.out.println
             ("Exception: El Dev no se encuentra encargado de resolver la falla de prioridad: "
             +falla.getSeveridad().toUpperCase());
+            System.out.println("Se redirigira el reporte al encargado...");
             System.out.println();
+            next.reporteFalla(persona, falla);
         }
     }
     

@@ -20,10 +20,10 @@ public class EmpresaApp implements IHandler{
         QA qa = new QA();
         Dev dev = new Dev();
 
-        this.setNext(equipoSoporte);
-        equipoSoporte.setNext(po);
-        po.setNext(qa);
-        qa.setNext(dev);
+        this.setNext(dev);
+        dev.setNext(qa);
+        qa.setNext(po);
+        po.setNext(equipoSoporte);
 
         System.out.println("\nBIENVENIDO");
         System.out.println("--- Sistema de reporte de fallas ---");
