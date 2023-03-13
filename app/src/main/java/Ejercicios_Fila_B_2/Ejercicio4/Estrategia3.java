@@ -17,7 +17,7 @@ public class Estrategia3 implements IStrategy{
                 estudianteCarreras.put(
                     estudiantesList.get(i).getCarrera(),
                     aux);
-            }else{
+            }else{  
                 estudianteCarreras.get(
                     estudiantesList.get(i).getCarrera()
                     ).add(estudiantesList.get(i));
