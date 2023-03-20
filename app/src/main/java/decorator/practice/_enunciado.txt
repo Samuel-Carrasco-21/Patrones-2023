@@ -1,0 +1,15 @@
+Se tienen 3 tipos de automoviles: vagonetas, minibuses y taxis,  estos automoviles 
+tienen velocidades y pueden avanzar, pero una empresa desarrolla accesorios 
+para mejorarlos
+accesorio1 :  
+turbo, (se agrega tanques de turbo para que sea mas veloz)
+
+accesorio2:  
+gps (se agrega gps para conocer la ubicacion de vehiculo)
+
+accesorio3: 
+tanque de gas (ademas de soportar gasolina ahora puede soportar gas natural)
+
+crear 1 automovil tipo minubus y agregar los 3 accesorios
+crear 1 taxi agregar el accesorio 3
+crear 1 vagoneta agregar accesorio 1 y 2
